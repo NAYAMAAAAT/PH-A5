@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+          .lexend-font {
+            font-family: "Lexend", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+          }
+        </style>
+        </style>
+      </head>
+      <body class=".lexend-font">
+        <header class="bg-[#F9F7F3] sticky top-0 overflow-hidden z-10">
+          <section class="lg:w-4/5 md:w-4/5 mx-auto max-w-screen-lg">
+            <div class="navbar">
+              <div class="navbar-start hidden lg:flex md:flex">
+                <button class="btn bg-[#B4F461] px-8 font-bold" id="blog-btn">
+                  Blog
+                </button>
+              </div>
+              <div class="navbar-center">
+                <img src="assets/logo.png" alt="" />
+                <a class="btn btn-ghost text-lg lg:text-xl md:text-xl font-bold"
+                  >Donate Bangladesh</a
+                >
+              </div>
+              <div class="navbar-end">
+                <img src="assets/coin.png" alt="" />
+                <p class="font-bold pl-2"><span id="balance">5000</span> BDT</p>
+              </div>
+            </div>
+            <section class="text-center my-5">
+              <button class="btn bg-lime-300 px-8 font-bold" id="donation-btn">
+                Donation
+              </button>
+              <button
+                class="btn bg-white border-2 border-gray-50 px-8 font-bold"
+                id="history-btn"
+              >
+                History
+              </button>
+            </section>
+          </section>
+        </header>
+    </head>
 <body>
     
 </body>
